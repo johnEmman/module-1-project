@@ -1,5 +1,5 @@
 {
-  "name": "Module-1",
+  "name": "module-1",
   "version": "1.0.0",
   "description": "Individual Project for Module 1",
   "main": "main.js",
@@ -12,6 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.19.1",
-    "jest": "^29.0.3"
-  }
+    "jest": "^29.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianjaico-refocus/module-1-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jianjaico-refocus/module-1-project/issues"
+  },
+  "homepage": "https://github.com/jianjaico-refocus/module-1-project#readme"
 }

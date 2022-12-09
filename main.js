@@ -20,19 +20,23 @@ const tempo = newsList;
 
 export function search() {
   //inputValue is the variable that contains the search string
-  const inputValue = document.getElementById("search-input").value;
-
+  const input = document.getElementById("search-input");
   //Write your code here for the search function
-  newsList = tempo;
-  let newArray = [];
-  newsList.forEach(lists => {
-    const userInput = lists.toLowerCase().search(inputValue.toLowerCase());
-    if(userInput > -1){
-      newArray.push(lists);
-      newsList = newArray;
-    }
-  })
-
+  if(input){
+    const inputValue = input.value;
+    
+    newsList = tempo;
+    let newArray = [];
+    
+    newsList.forEach(lists => {
+      const userInput = lists.toLowerCase().search(inputValue.toLowerCase());
+      if(userInput > -1){
+        newArray.push(lists);
+        newsList = newArray;
+      }
+    })
+  }
+  
   return newsList;
 }
 

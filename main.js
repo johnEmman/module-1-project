@@ -61,7 +61,7 @@ export function sort(type) {
       }
       return 0;
     }).reverse();
-  }
+  };
 
   return newsList;
 }

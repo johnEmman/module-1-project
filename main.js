@@ -45,9 +45,9 @@ export function sort(type) {
       if(aWRegex < bWRegex){
         return -1;
       }else if(aWRegex > bWRegex){
-        return 1;
+        return 1
       }
-      return 0;
+      return 0
     })
   } else {
     //Write your code here for sorting (descending)
@@ -57,9 +57,9 @@ export function sort(type) {
       if(aWRegex < bWRegex){
         return -1;
       }else if(aWRegex > bWRegex){
-        return 1;
+        return 1
       }
-      return 0;
+      return 0
     }).reverse();
   }
 

@@ -29,7 +29,7 @@ export function search() {
     const userInput = lists.toLowerCase().search(inputValue.toLowerCase());
     if(userInput > -1){
       newArray.push(lists);
-      newsList = newArray
+      newsList = newArray;
     }
   })
 
@@ -41,7 +41,7 @@ export function sort(type) {
     //Write your code here for sorting (ascending)
     newsList.sort((a, b) => {
       let aWRegex = a.replace(/[\W_]+/, "");
-      let bWRegex = b.replace(/[\W_]+/, "")
+      let bWRegex = b.replace(/[\W_]+/, "");
       if(aWRegex < bWRegex){
         return -1;
       }else if(aWRegex > bWRegex){
@@ -53,7 +53,7 @@ export function sort(type) {
     //Write your code here for sorting (descending)
     newsList.sort((a, b) => {
       let aWRegex = a.replace(/[\W_]+/, "");
-      let bWRegex = b.replace(/[\W_]+/, "")
+      let bWRegex = b.replace(/[\W_]+/, "");
       if(aWRegex < bWRegex){
         return -1;
       }else if(aWRegex > bWRegex){

@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jianjaico-refocus/module-1-project/issues"
   },
-  "homepage": "https://github.com/jianjaico-refocus/module-1-project#readme"
+  "homepage": "https://github.com/jianjaico-refocus/module-1-project#readme",
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.3.1"
+  }
 }

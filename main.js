@@ -65,3 +65,4 @@ export function sort(type) {
 
   return newsList;
 }
+

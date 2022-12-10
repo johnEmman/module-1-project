@@ -2,7 +2,8 @@ import { sort, search, newsList } from "./main.js";
 
 //Example testing for search function
 test("Search function testing", () => {
-  expect(search()).toStrictEqual([
+  const res = search()
+  expect(res).toStrictEqual([
     "What films should an aspiring journalist watch?",
     "Buried underpants and tea bags help scientists evaluate soil",
     "Decoder: Mining asteroids for minerals can help spare Earth",

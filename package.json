@@ -24,5 +24,8 @@
   "homepage": "https://github.com/jianjaico-refocus/module-1-project#readme",
   "devDependencies": {
     "jest-environment-jsdom": "^29.3.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
